@@ -2,12 +2,16 @@
 # https://github.com/manna-harbour/miryoku
 
 name: '0 - My eyelash sofle'
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - "keymap-drawer/**"
 jobs:
   build:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
       board: '["eyelash_sofle_left","eyelash_sofle_right"]'
-      shield: '["nice_view"]'
+      shield: '["nice_view_adapter nice_view"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
