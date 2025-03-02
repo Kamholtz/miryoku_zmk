@@ -10,3 +10,4 @@ jobs:
     with:
       board: '["eyelash_sofle_left","eyelash_sofle_right"]'
       shield: '["nice_view","nice_view_custom"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
