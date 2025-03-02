@@ -9,3 +9,4 @@ jobs:
     secrets: inherit
     with:
       board: '["eyelash_sofle_left","eyelash_sofle_right"]'
+      shield: '["nice_view","nice_view_custom"]'
