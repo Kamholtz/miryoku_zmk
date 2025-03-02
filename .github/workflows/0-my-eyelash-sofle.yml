@@ -9,4 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["eyelash_sofle_left","eyelash_sofle_right"]'
+      shield: '["nice_view"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
