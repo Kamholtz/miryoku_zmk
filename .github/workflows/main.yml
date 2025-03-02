@@ -44,7 +44,10 @@ on:
       modules:
         type: string
         default: '["default"]'
-  
+      snippet:
+        type: string
+        default: '["default"]'
+
 
 jobs:
   main:
@@ -67,6 +70,7 @@ jobs:
         kconfig: ${{ fromJSON(inputs.kconfig) }}
         branches: ${{ fromJSON(inputs.branches) }}
         modules: ${{ fromJSON(inputs.modules) }}
+        snippet: ${{ fromJSON(inputs.snippet) }}
     env:
       MIRYOKU_DEBUG: ${{ secrets.MIRYOKU_DEBUG }}
     steps:
@@ -324,9 +328,15 @@ jobs:
           build_failed_message='::error::Build failed with exit code'
           EX_UNAVAILABLE='69'
           EX_DATAERR='65'
+          if [ -n "${{ matrix.snippet }}" -a "${{ matrix.snippet }}" != "default" ]
+          then
+            west_snippet="-S ${{ matrix.snippet }}"
+          else
+            west_snippet=""
+          fi
           cd "${GITHUB_WORKSPACE}/zmk/app"
           {
-            west $west_debug build -b ${{ matrix.board }} $west_build_debug -- ${{ steps.main.outputs.shield_arg }} ${{ steps.main.outputs.modules_arg }} -DZMK_CONFIG="${GITHUB_WORKSPACE}/miryoku_zmk/config" ||
+            west $west_debug build -b ${{ matrix.board }} $west_snippet $west_build_debug -- ${{ steps.main.outputs.shield_arg }} ${{ steps.main.outputs.modules_arg }} -DZMK_CONFIG="${GITHUB_WORKSPACE}/miryoku_zmk/config" ||
             echo "$build_failed_message $?." ;
           } 2>&1 | tee "$log"
           if grep -q 'Invalid BOARD; see above.' "$log"

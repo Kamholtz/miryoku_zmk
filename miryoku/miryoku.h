@@ -23,7 +23,7 @@
 #define U_NA &none // present but not available for use
 #define U_NU &none // available but not used
 
-#define U_TAPPING_TERM 200
+#define U_TAPPING_TERM 280
 
 #include "miryoku_clipboard.h"
 
@@ -31,14 +31,12 @@
 
 #include "miryoku_shift_functions.h"
 
-#if defined (MIRYOKU_KLUDGE_MOUSEKEYSPR)
-  #include "miryoku_kludge_mousekeyspr.h"
-#else
-  #include "miryoku_mousekeys.h"
-#endif
+#include "miryoku_mouse.h"
 
 #if defined (MIRYOKU_KLUDGE_TAPDELAY)
   #include "miryoku_kludge_tapdelay.h"
 #else
   #include "miryoku_behaviors.h"
 #endif
+
+#include "miryoku_studio.h"

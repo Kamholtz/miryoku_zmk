@@ -1,0 +1,27 @@
+# Copyright 2025 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: "Build eyelash_sofle"
+on: workflow_dispatch
+jobs:
+  build-left:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["eyelash_sofle_left"]'
+      shield: '["nice_view"]'
+      modules: '["a741725193/zmk-sofle/main"]'
+      kconfig: '["CONFIG_ZMK_STUDIO=y\nCONFIG_ZMK_STUDIO_LOCKING=n\nCONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
+      snippet: '["studio-rpc-usb-uart"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
+  build-right:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["eyelash_sofle_right"]'
+      shield: '["nice_view_custom"]'
+      modules: '["a741725193/zmk-sofle/main"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
