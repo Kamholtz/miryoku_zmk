@@ -1,0 +1,7 @@
+# Copyright 2024 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=gpeye/mario-peripheral-animation
+outboard_ref=main
+outboard_from=boards/shields/nice_view_custom
+outboard_to=boards/shields/nice_view_custom
