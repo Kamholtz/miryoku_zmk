@@ -8,14 +8,24 @@ on:
     paths-ignore:
       - "keymap-drawer/**"
 jobs:
-  build:
+  build-left:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["eyelash_sofle_left","eyelash_sofle_right"]'
+      board: '["eyelash_sofle_left"]'
       shield: '["nice_view"]'
+      modules: '["a741725193/zmk-sofle/main"]'
+      kconfig: '["CONFIG_ZMK_STUDIO=y\nCONFIG_ZMK_STUDIO_LOCKING=n\nCONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
+      snippet: '["studio-rpc-usb-uart"]'
       alphas: '["qwerty"]'
       nav: '["vi"]'
+  build-right:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["eyelash_sofle_right"]'
+      shield: '["nice_view_custom"]'
       modules: '["a741725193/zmk-sofle/main"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
