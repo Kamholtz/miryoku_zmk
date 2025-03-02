@@ -3,5 +3,5 @@
 
 outboard_repository=kamholtz/zmk-config
 outboard_ref=main
-outboard_from=config/boards/arm/eyelash_sofle
+outboard_from=boards/arm/eyelash_sofle
 outboard_to=boards/arm/eyelash_sofle
