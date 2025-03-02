@@ -1,7 +1,4 @@
 # Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-outboard_repository=kamholtz/zmk-config
-outboard_ref=main
-outboard_from=boards/arm/eyelash_sofle
-outboard_to=boards/arm/eyelash_sofle
+outboard_modules=Kamholtz/zmk-config/main
