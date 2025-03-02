@@ -8,4 +8,4 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["eyelash_sofle"]'
+      board: '["eyelash_sofle_left,eyelash_sofle_right"]'
