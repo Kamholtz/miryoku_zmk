@@ -13,5 +13,9 @@ jobs:
     secrets: inherit
     with:
       board: '["eyelash_sofle_left","eyelash_sofle_right"]'
-      shield: '["sofle_left"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
+      shield: '["nice_view"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
+      modules: '["a741725193/zmk-sofle/main"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      branches: '["petejohanson/zmk/feat/pointers-move-scroll","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-move-scroll"]'
