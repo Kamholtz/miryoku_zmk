@@ -4,9 +4,6 @@
 name: '0 - My eyelash sofle'
 on:
   workflow_dispatch:
-  push:
-    paths-ignore:
-      - "keymap-drawer/**"
 jobs:
   build-left:
     uses: ./.github/workflows/main.yml
