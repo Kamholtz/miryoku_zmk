@@ -195,7 +195,7 @@
       "t": "#000000\n#ff00ff\n#ffff00\n#00ffff\n#ffffff\n\n\n#00ff00",
       "f": 3
     },
-    ",\n1\n⇩\nP▲\nOpp\n\n\n<"
+    ",\n1\n⇧\nP▲\nOpp\n\n\n<"
   ],
   [
     {
@@ -216,13 +216,13 @@
       "t": "#000000\n#ff00ff\n#ffff00\n#00ffff\n#ffffff\n\n\n#00ff00",
       "f": 3
     },
-    "M\n0\n⇦\nP▼\nCur\n\n\n-",
+    "M\n0\n⇩\nP▼\nCur\n\n\n-",
     {
       "x": 1,
       "t": "#000000\n#ff00ff\n#ffff00\n#00ffff\n\n\n\n#00ff00",
       "f": 3
     },
-    ".\n2\n⇧\nEnd\n\n\n\n>"
+    ".\n2\n⇨\nEnd\n\n\n\n>"
   ],
   [
     {
@@ -240,7 +240,7 @@
     "B\nPause Break\n\\\n\\",
     {
       "x": 2,
-      "t": "#000000\n#ff00ff\n\n#00ffff\n\n\n\n#00ff00",
+      "t": "#000000\n#ff00ff\n#ffff00\n#00ffff\n\n\n\n#00ff00",
       "f": 3,
       "fa": [
         0,
@@ -249,7 +249,7 @@
         2
       ]
     },
-    "N\nO\n\nHome\n\n\n\n/"
+    "N\nO\n⇦\nHome\n\n\n\n/"
   ],
   [
     {
@@ -263,7 +263,7 @@
       "t": "#000000\n#ff00ff\n#ffff00\n#00ffff\n#C0C0C0\n\n\n#00ff00",
       "f": 3
     },
-    "/\n3\n⇨\nInsert\nButton\n\n\n\""
+    "/\n3\n\nInsert\nButton\n\n\n\""
   ],
   [
     {
