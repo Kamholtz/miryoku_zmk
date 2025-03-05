@@ -35,9 +35,10 @@ XXX               &kp LCTRL &kp LGUI  K32     K33  K34    &kp RET      K35  K36 
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 53 54
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 55 56
 
-/*    &kp GRAVE, &kp TILDE, &kp HASH,  &kp AMPS,  &kp PIPE,    &kp CARET, &kp LBRC,  &kp RBRC, &kp LBRC,  &kp RBRC,    */
-/*    &kp EXCL,  &kp UNDER, &kp COLON, &kp EQUAL, &kp DLLR,    &kp AT,    &kp LPAR,  &kp RPAR, &kp UNDER, &kp SEMI,    */
-/*    &kp PRCNT, &kp QMARK, &kp ASTRK, &kp PLUS,  &kp BSLH,    &kp SLASH, &kp MINUS, &kp LT,   &kp GT,    &kp DQT,    */
+/*https://www.reddit.com/r/ErgoMechKeyboards/comments/1cim5s9/miryoku_for_programming/ */
+/*      ` ~ # & |    ^ { } [ ]      */
+/*      ! _ : = $    @ ( ) _ ;      */
+/*      % ? * + \    / - < > "      */
 
 #define MIRYOKU_LAYER_SYM \
 &kp GRAVE, &kp TILDE, &kp HASH,  &kp AMPS,  &kp PIPE,    &kp CARET, &kp LBRC,  &kp RBRC, &kp LBKT,  &kp RBKT,         \
