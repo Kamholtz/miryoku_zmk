@@ -35,10 +35,13 @@ XXX               &kp LCTRL &kp LGUI  K32     K33  K34    &kp RET      K35  K36 
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 53 54
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 55 56
 
+/*    &kp GRAVE, &kp TILDE, &kp HASH,  &kp AMPS,  &kp PIPE,    &kp CARET, &kp LBRC,  &kp RBRC, &kp LBRC,  &kp RBRC,    */
+/*    &kp EXCL,  &kp UNDER, &kp COLON, &kp EQUAL, &kp DLLR,    &kp AT,    &kp LPAR,  &kp RPAR, &kp UNDER, &kp SEMI,    */
+/*    &kp PRCNT, &kp QMARK, &kp ASTRK, &kp PLUS,  &kp BSLH,    &kp SLASH, &kp MINUS, &kp LT,   &kp GT,    &kp DQT,    */
 
 #define MIRYOKU_LAYER_SYM \
-&kp LBRC,          &kp N4,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_STU,             \
+&kp GRAVE, &kp TILDE, &kp HASH,  &kp AMPS,  &kp PIPE,    &kp CARET, &kp LBRC,  &kp RBRC, &kp LBRC,  &kp RBRC         \
+&kp EXCL,  &kp UNDER, &kp COLON, &kp EQUAL, &kp DLLR,    &kp AT,    &kp LPAR,  &kp RPAR, &kp UNDER, &kp SEMI          \
+&kp PRCNT, &kp QMARK, &kp ASTRK, &kp PLUS,  &kp BSLH,    &kp SLASH, &kp MINUS, &kp LT,   &kp GT,    &kp DQT,           \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
