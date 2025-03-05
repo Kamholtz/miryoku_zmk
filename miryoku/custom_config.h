@@ -40,8 +40,8 @@ XXX               &kp LCTRL &kp LGUI  K32     K33  K34    &kp RET      K35  K36 
 /*    &kp PRCNT, &kp QMARK, &kp ASTRK, &kp PLUS,  &kp BSLH,    &kp SLASH, &kp MINUS, &kp LT,   &kp GT,    &kp DQT,    */
 
 #define MIRYOKU_LAYER_SYM \
-&kp GRAVE, &kp TILDE, &kp HASH,  &kp AMPS,  &kp PIPE,    &kp CARET, &kp LBRC,  &kp RBRC, &kp LBRC,  &kp RBRC         \
-&kp EXCL,  &kp UNDER, &kp COLON, &kp EQUAL, &kp DLLR,    &kp AT,    &kp LPAR,  &kp RPAR, &kp UNDER, &kp SEMI          \
+&kp GRAVE, &kp TILDE, &kp HASH,  &kp AMPS,  &kp PIPE,    &kp CARET, &kp LBRC,  &kp RBRC, &kp LBRC,  &kp RBRC,         \
+&kp EXCL,  &kp UNDER, &kp COLON, &kp EQUAL, &kp DLLR,    &kp AT,    &kp LPAR,  &kp RPAR, &kp UNDER, &kp SEMI,          \
 &kp PRCNT, &kp QMARK, &kp ASTRK, &kp PLUS,  &kp BSLH,    &kp SLASH, &kp MINUS, &kp LT,   &kp GT,    &kp DQT,           \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
