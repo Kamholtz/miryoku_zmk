@@ -42,7 +42,7 @@ XXX               &kp LCTRL &kp LGUI  K32     K33  K34    &kp RET      K35  K36 
 /*&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_STU,             \*/
 /*U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP*/
 /**/
-#if defined (MIRYOKU_KEYBOARD_EYELASH_SOFLE)
+#if !defined (MIRYOKU_KEYBOARD_EYELASH_SOFLE)
 
 #define MIRYOKU_LAYERMAPPING_SYM( \
      K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
