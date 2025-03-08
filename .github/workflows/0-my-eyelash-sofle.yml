@@ -19,6 +19,7 @@ jobs:
       snippet: '["studio-rpc-usb-uart"]'
       alphas: '["qwerty"]'
       nav: '["vi"]'
+      clipboard: '["win"]'
   build-right:
     uses: ./.github/workflows/main.yml
     secrets: inherit
@@ -29,3 +30,4 @@ jobs:
       kconfig: '["CONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
       alphas: '["qwerty"]'
       nav: '["vi"]'
+      clipboard: '["win"]'
