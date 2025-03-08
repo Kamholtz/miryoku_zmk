@@ -30,11 +30,8 @@ XXX              XXX  K32  K33  K34  XXX    XXX    XXX  K35  K36  K37  XXX
 &kp LSHFT K20     K21       K22       K23     K24         &kp RIGHT         K25     K26     K27        K28      K29     &kp RET  \
 XXX               &kp LCTRL &kp LGUI  K32     K33  K34    &kp RET      K35  K36     K37     &kp RSHFT  &kp RALT
 
-#define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 53 54
-#define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 55 56
-
-#define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 53 54
-#define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 55 56
+#define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 55 56
+#define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 60 61
 
 #define MIRYOKU_LAYER_TAP \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
