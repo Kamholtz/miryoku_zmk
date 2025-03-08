@@ -72,8 +72,8 @@ bottomrowcombos_ ## LAYER ## _ ## POSITION { \
   #endif
   #if defined (MIRYOKU_NAV_INVERTEDT)
     #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
-  #elif defined (MIRYOKU_NAV_VI)
-    #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
+//  #elif defined (MIRYOKU_NAV_VI)
+//    #error "Not implemented. See https://github.com/manna-harbour/miryoku/issues/56"
   #else
     MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_MACRO(U_NAV, LEFTPINKIE, U_NA)
     MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_MACRO(U_NAV, LEFTINNERINDEX, U_NA)
