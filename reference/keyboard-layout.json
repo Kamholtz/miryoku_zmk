@@ -72,7 +72,16 @@
       "x": 2,
       "t": "#000000\n#ff00ff\n#ffff00\n#00ffff\n\n\n\n#00ff00",
       "f": 3,
-      "f2": 2
+      "fa": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
     },
     "Y\nR\nRedo\nRedo\n\n\n\n^"
   ],
@@ -180,7 +189,7 @@
       "t": "#000000\n#ff00ff\n\n#00ffff\n\n\n\n#00ff00",
       "f": 3
     },
-    "'\n⏭\n\nCaps Lock\nSuper\n\n\n;"
+    ";\n⏭\n\nCaps Lock\nSuper\n\n\n;"
   ],
   [
     {
@@ -260,7 +269,7 @@
     "Z\nF10\n%\n`\nButton",
     {
       "x": 10,
-      "t": "#000000\n#ff00ff\n#ffff00\n#00ffff\n#C0C0C0\n\n\n#00ff00",
+      "t": "#000000\n#ff00ff\n\n#00ffff\n#C0C0C0\n\n\n#00ff00",
       "f": 3
     },
     "/\n3\n\nInsert\nButton\n\n\n\""
