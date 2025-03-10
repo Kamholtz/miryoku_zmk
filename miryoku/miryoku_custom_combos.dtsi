@@ -1,0 +1,21 @@
+// Copyright 2022 Manna Harbour
+// https://github.com/manna-harbour/miryoku
+
+#define MIRYOKU_CUSTOM_COMBOS_TERM 50
+#define MIRYOKU_CUSTOM_COMBOS_MACRO(LAYER, POSITION, BINDING) \
+custom_combos_ ## LAYER ## _ ## POSITION { \
+  layers = <LAYER>; \
+  key-positions = <MIRYOKU_CUSTOM_COMBOS_ ## POSITION>; \
+  bindings = <BINDING>; \
+  timeout-ms = <MIRYOKU_CUSTOM_COMBOS_TERM>; \
+};
+
+/ {
+  combos {
+    compatible = "zmk,combos";
+    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, UNDO, U_UND)
+    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, CUT, U_CUT)
+    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, COPY, U_CPY)
+    MIRYOKU_CUSTOM_COMBOS_MACRO(U_BASE, PASTE, U_PST)
+  };
+};

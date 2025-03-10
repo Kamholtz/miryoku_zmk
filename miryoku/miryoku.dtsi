@@ -49,3 +49,7 @@ MIRYOKU_LAYER_LIST
 #else
   #include "miryoku_behaviors.dtsi"
 #endif
+
+#if defined (MIRYOKU_CUSTOM_COMBOS)
+  #include "miryoku_custom_combos.dtsi"
+#endif
