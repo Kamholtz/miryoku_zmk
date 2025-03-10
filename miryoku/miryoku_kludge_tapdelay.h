@@ -13,7 +13,7 @@ U_MACRO(u_tapdelay_tap_##CODE, bindings = <&macro_press &kp CODE>, <&macro_relea
       compatible = "zmk,behavior-hold-tap"; \
       #binding-cells = <2>; \
       tapping-term-ms = <U_TAPPING_TERM>; \
-      flavor = "tap-preferred"; \
+      flavor = "balanced"; \
       bindings = <&kp>, <&u_tapdelay_tap_##CODE>; \
     }; \
   }; \
