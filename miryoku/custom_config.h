@@ -60,8 +60,9 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 /*      % ? * + \    / - < > "      */
 
 #define MIRYOKU_LAYER_SYM \
-&kp GRAVE, &kp TILDE, &kp HASH,  &kp AMPS,  &kp PIPE,    &kp CARET, &kp LBRC,  &kp RBRC, &kp LBKT,  &kp RBKT,         \
-U_MTR(LGUI, EXCL),  U_MTR(LALT, UNDER), U_MTR(LCTRL, COLON), U_MTR(LSHIFT, EQUAL), &kp DLLR,    &kp AT,    U_MTR(LSHIFT, LPAR), U_MTR(LCTRL, RPAR), U_MTR(LALT, UNDER), U_MTR(LGUI, SEMI),          \
-&kp PRCNT, &kp QMARK, &kp ASTRK, &kp PLUS,  &kp BSLH,    &kp SLASH, &kp MINUS, &kp LT,   &kp GT,    &kp DQT,           \
-U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp GRAVE,          &kp TILDE,             &kp HASH,              &kp AMPS,             &kp PIPE,    &kp CARET, &kp LBRC,  &kp RBRC, &kp LBKT,  &kp RBKT,         \
+U_MTL(LGUI, EXCL),  U_MTL(LALT, UNDER),    U_MTL(LCTRL, COLON),   U_MTL(LSHIFT, EQUAL), &kp DLLR,    &kp AT,    U_MTR(LSHIFT, LPAR), U_MTR(LCTRL, RPAR), U_MTR(LALT, UNDER), U_MTR(LGUI, SEMI),          \
+&kp PRCNT,          &kp QMARK,             &kp ASTRK,             &kp PLUS,             &kp BSLH,    &kp SLASH, &kp MINUS, &kp LT,   &kp GT,    &kp DQT,           \
+U_NP,               U_NP,                  &kp LPAR,              &kp RPAR,             &kp UNDER,   U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
 
