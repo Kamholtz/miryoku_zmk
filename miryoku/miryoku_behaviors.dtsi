@@ -12,7 +12,7 @@
                33 34 35 36 37 38 \
                46 47 48 49 50 51
 
-#define THUMBS 54 55 56 60 61 62
+#define THUMBS 55 56 57 59 60 61
 
 / {
   behaviors {
