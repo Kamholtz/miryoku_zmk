@@ -46,10 +46,10 @@ XXX                   &kp LCTRL   &kp LGUI    K32       K33     K34    &kp RET  
 
 
 #define MIRYOKU_LAYER_TAP \
-&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,           \
-&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+        /* Q */           &kp Q,          /* W */           &kp W,          /* E */           &kp E,          /* R */           &kp R,          /* T */           &kp T,  /* Y */           &kp Y,          /* U */           &kp U,          /* I */           &kp I,          /* O */           &kp O,          /* P */           &kp P, \
+        /* A */           &kp A,          /* S */           &kp S,          /* D */           &kp D,          /* F */           &kp F,          /* G */           &kp G,  /* H */           &kp H,          /* J */           &kp J,          /* K */           &kp K,          /* L */           &kp L,          /* ; */           &kp SEMI, \
+        /* Z */           &kp Z,          /* X */           &kp X,          /* C */           &kp C,          /* V */           &kp V,          /* B */           &kp B,  /* N */           &kp N,          /* M */           &kp M,          /* , */           &kp COMMA,      /* . */           &kp DOT,        /* / */           &kp SLASH, \
+        /*     */         U_NP,           /*     */         U_NP,           /* ESC */         &kp ESC,        /* SPACE */       &kp SPACE,      /* TAB */         &kp TAB,  /* RET */       &kp RET,        /* BSPC */        &kp BSPC,       /* DEL */         &kp DEL,        /*     */         U_NP,           /*     */         U_NP
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,              &kp W,             &kp E,                &kp R,                 &kp T,                 &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
