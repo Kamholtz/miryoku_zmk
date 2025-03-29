@@ -73,10 +73,10 @@
         /*     */            U_NP,               /*     */            U_NP,               /* ESC (MEDIA) */      U_LT(U_MEDIA, ESC),   /* SPACE (NAV) */      U_LT(U_NAV, SPACE), /* TAB (MOUSE) */    U_LT(U_MOUSE, TAB),  /* RET (SYM) */      U_LT(U_SYM, RET),   /* BSPC (NUM) */     U_LT(U_NUM, BSPC),  /* DEL (FUN) */        U_LT(U_FUN, DEL),     /*     */              U_NP,               /*     */            U_NP
 
 #define MIRYOKU_LAYER_NUM \
-&kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp DOT,           &kp SLASH,             \
-U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+        /*  0 [ */   &kp LBKT,         /*  1 7 */   &kp N7,            /*  2 8 */   &kp N8,            /*  3 9 */   &kp N9,            /*  4 ] */   &kp RBKT,         /*  5 */     U_NA,              /*  6 to BASE */   &u_to_U_BASE,      /*  7 to EXTRA */   &u_to_U_EXTRA,     /*  8 to TAP */   &u_to_U_TAP,       /*  9 BOOT */   U_BOOT, \
+        /* 10 ; */   &kp SEMI,         /* 11 4 */   &kp N4,            /* 12 5 */   &kp N5,            /* 13 6 */   &kp N6,            /* 14 = */   &kp EQUAL,        /* 15 */     U_NA,              /* 16 LSHFT */     &kp LSHFT,         /* 17 LCTRL */     &kp LCTRL,         /* 18 LALT */     &kp LALT,          /* 19 LGUI */     &kp LGUI, \
+        /* 20 ` */   &kp GRAVE,        /* 21 1 */   &kp N1,            /* 22 2 */   &kp N2,            /* 23 3 */   &kp N3,            /* 24 \\ */  &kp BSLH,         /* 25 */     U_NA,              /* 26 to NUM */    &u_to_U_NUM,       /* 27 to NAV */    &u_to_U_NAV,       /* 28 . */        &kp DOT,           /* 29 / */        &kp SLASH, \
+        /* 30 */     U_NP,             /* 31 */     U_NP,             /* 32 . */   &kp DOT,           /* 33 0 */   &kp N0,            /* 34 - */   &kp MINUS,        /* 35 */     U_NA,              /* 36 */           U_NA,              /* 37 */           U_NA,              /* 38 */           U_NP,              /* 39 */           U_NP
 
 /*https://www.reddit.com/r/ErgoMechKeyboards/comments/1cim5s9/miryoku_for_programming/ */
 /*      ` ~ # & |    ^ { } [ ]      */
