@@ -22,7 +22,7 @@
      K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39 \
 ) \
-/*  0 */  &kp N4       /*  1   */  &kp LGUI(N1) /*  2   */  &kp LGUI(N2)  /*  3   */  &kp LGUI(N3)  /*  4   */  &kp LGUI(N4)  /*  5   */  &kp LGUI(N5)  /*  6 */  &kp UP         /*  7   */  &kp LGUI(N6)  /*  8   */  &kp LGUI(N7)  /*  9   */  &kp LGUI(N8)  /* 10   */  &kp LGUI(N9)  /* 11   */  &kp LGUI(N0)  /* 12 */  &kp MINUS \
+/*  0 */  &kp ESC       /*  1   */  &kp LGUI(N1) /*  2   */  &kp LGUI(N2)  /*  3   */  &kp LGUI(N3)  /*  4   */  &kp LGUI(N4)  /*  5   */  &kp LGUI(N5)  /*  6 */  &kp UP         /*  7   */  &kp LGUI(N6)  /*  8   */  &kp LGUI(N7)  /*  9   */  &kp LGUI(N8)  /* 10   */  &kp LGUI(N9)  /* 11   */  &kp LGUI(N0)  /* 12 */  &kp MINUS \
 /* 13 */  &kp TAB       /* 14 Q */  K00          /* 15 W */  K01          /* 16 E */  K02          /* 17 R */  K03          /* 18 T */  K04          /* 19 */  &kp DOWN       /* 20 Y */  K05          /* 21 U */  K06          /* 22 I */  K07          /* 23 O */  K08          /* 24 P */  K09          /* 25 */  &kp BSLH \
 /* 26 */  &kp LCTRL     /* 27 A */  K10          /* 28 S */  K11          /* 29 D */  K12          /* 30 F */  K13          /* 31 G */  K14          /* 32 */  &kp LEFT       /* 33 H */  K15          /* 34 J */  K16          /* 35 K */  K17          /* 36 L */  K18          /* 37 ; */  K19          /* 38 */  &kp SQT \
 /* 39 */  &sk LSHFT     /* 40 Z */  K20          /* 41 X */  K21          /* 42 C */  K22          /* 43 V */  K23          /* 44 B */  K24          /* 45 */  &kp RIGHT      /* 46 N */  K25          /* 47 M */  K26          /* 48  */   K27          /* 49 . */  K28          /* 50 / */  K29          /* 51 */  &kp RET \
