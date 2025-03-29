@@ -16,7 +16,7 @@
                         /* 52   */  XXX          /* 53   */  &kp LCTRL    /* 54   */  &kp LGUI     /* 55   */  K32          /* 56   */  K33          /* 57 */  K34            /* 58   */  &kp RET      /* 59   */  K35          /* 60   */  K36          /* 61   */  K37          /* 62   */  &sk RSHFT    /* 63 */  &kp RALT
 
 
-#define MIRYOKU_LAYOUTMAPPING_NAV( \
+#define MIRYOKU_LAYERMAPPING_NAV( \
      K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,                K15, K16, K17, K18, K19, \
      K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, \
