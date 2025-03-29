@@ -57,6 +57,12 @@
         /* Z (BTN) */        U_LT(U_BUTTON, Z),  /* RALT+X */         U_MTL(RALT, X),     /* C */                &kp C,                /* V */                &kp V,              /* B */              &kp B,               /* N */              &kp N,              /* M */              &kp M,              /* , */                &kp COMMA,            /* RALT+. */           U_MTR(RALT, DOT),   /* / (BTN) */        U_LT(U_BUTTON, SLASH), \
         /*     */            U_NP,               /*     */            U_NP,               /* ESC (MEDIA) */      U_LT(U_MEDIA, ESC),   /* SPACE (NAV) */      U_LT(U_NAV, SPACE), /* TAB (MOUSE) */    U_LT(U_MOUSE, TAB),  /* RET (SYM) */      U_LT(U_SYM, RET),   /* BSPC (NUM) */     U_LT(U_NUM, BSPC),  /* DEL (FUN) */        U_LT(U_FUN, DEL),     /*     */              U_NP,               /*     */            U_NP
 
+#define MIRYOKU_LAYER_NUM \
+&kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_STU,             \
+U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
 /*https://www.reddit.com/r/ErgoMechKeyboards/comments/1cim5s9/miryoku_for_programming/ */
 /*      ` ~ # & |    ^ { } [ ]      */
 /*      ! _ : = $    @ ( ) _ ;      */
