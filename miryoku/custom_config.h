@@ -30,6 +30,13 @@
 /* 39 */  &sk LSHFT        /* 40 Z */  K20          /* 41 X */  K21          /* 42 C */  K22          /* 43 V */  K23          /* 44 B */  K24          /* 45 */  &kp RIGHT      /* 46 N */  K25          /* 47 M */  K26          /* 48  */   K27          /* 49 . */  K28          /* 50 / */  K29          /* 51 */  &kp RET \
                            /* 52   */  XXX          /* 53   */  &kp LCTRL    /* 54   */  &kp LGUI     /* 55   */  K32          /* 56   */  K33          /* 57 */  K34            /* 58   */  &kp RET      /* 59   */  K35          /* 60   */  K36          /* 61   */  K37          /* 62   */  &sk RSHFT    /* 63 */  &kp RALT
 
+
+#define MIRYOKU_LAYER_NAV \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
+U_STU,             &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       &kp BSPC,          &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
 // we
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 15 16
 // er
