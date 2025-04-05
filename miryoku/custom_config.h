@@ -37,11 +37,24 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_STU,             &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       &kp BSPC,          &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_SYM \
-&kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_STU,             \
-U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+#define MIRYOKU_LAYERMAPPING_SYM( \
+     K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,                K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39 \
+) \
+/*  0 */  &kp GRAVE        /*  1   */  &kp LBKT     /*  2   */  &kp LPAR     /*  3   */  &kp RPAR     /*  4   */  &kp RBKT     /*  5   */  &kp DOT         /*  6 */  &kp UP         /*  7   */  &kp GRAVE    /*  8   */  &kp LG(N7)   /*  9   */  &kp LG(N8)   /* 10   */  &kp LG(N9)   /* 11   */  &kp LG(N0)   /* 12 */  &kp MINUS \
+/* 13 */  &kp EXCL         /* 14 Q */  &kp COMMA    /* 15 W */  &kp LCURLY   /* 16 E */  &kp RCURLY   /* 17 R */  &kp SEMI     /* 18 T */  &kp QMARK       /* 19 */  &kp DOWN       /* 20 Y */  &kp DQT      /* 21 U */  &kp AT       /* 22 I */  K07          /* 23 O */  K08          /* 24 P */  K09          /* 25 */  &kp BSLH \
+/* 26 */  &kp HASH         /* 27 A */  &kp CARET    /* 28 S */  &kp EQUAL    /* 29 D */  &kp UNDER    /* 30 F */  &kp DLR      /* 31 G */  &kp ASTRK       /* 32 */  &kp LEFT       /* 33 H */  &kp SQT      /* 34 J */  K16          /* 35 K */  K17          /* 36 L */  K18          /* 37 ; */  K19          /* 38 */  &kp SQT \
+/* 39 */  &sk TILDE        /* 40 Z */  &kp LT       /* 41 X */  &kp PIPE     /* 42 C */  &kp MINUS    /* 43 V */  &kp GT       /* 44 B */  &kp SLASH       /* 45 */  &kp RIGHT      /* 46 N */  &kp BSLH     /* 47 M */  &kp PERC     /* 48   */  &kp PLUS     /* 49 . */  &kp AMPS     /* 50 / */  &kp COLON    /* 51 */  &kp RET \
+/* 52 */  XXX              /* 53   */  &kp LCTRL    /* 54   */  &kp LGUI     /* 55   */  K32          /* 56   */  K33          /* 57   */  K34             /* 58 */  &kp RET        /* 59   */  K35          /* 60   */  K36          /* 61   */  K37          /* 62   */  &sk RSHFT    /* 63   */  &kp RALT
+
+                    /*&kp GRAVE   &kp LBKT    &kp LPAR    &kp RPAR    &kp RBKT    &kp DOT       &none       &none       &none       &none*/
+                    /*&kp EXCL    &kp COMMA   &kp LCURLY  &kp RCURLY  &kp SEMI    &kp QMARK     &kp LEFT    &kp UP      &kp DOWN    &kp RIGHT*/
+                    /*&kp HASH    &kp CARET   &kp EQUAL   &kp UNDER   &kp DLR     &kp ASTRK     &kp BSPC    &kp TAB     &kp SPACE   &kp ENTER*/
+                    /*&kp TILDE   &kp LT      &kp PIPE    &kp MINUS   &kp GT      &kp SLASH     &kp DEL     &bt BT_SEL  &kp SEL_WORD &kp SEL_LINE*/
+                    /*&none       &kp AMPS    &kp SQT     &kp DQT     &kp PLUS    &kp BSLH      &kp UNDO    &kp REDO    &kp EXT_WORD &kp EXT_LINE*/
+                    /*&kp PERC    &kp DOT     &kp AT      &mo BASE    &none       &none         &none       &none       &none       &none*/
 
 // we
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 15 16
@@ -96,13 +109,6 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 /*      ` ~ # & |    ^ { } [ ]      */
 /*      ! _ : = $    @ ( ) _ ;      */
 /*      % ? * + \    / - < > "      */
-
-#define MIRYOKU_LAYER_SYM_2 \
-        /* ` */             &kp GRAVE,          /* ~ */              &kp TILDE,             /* # */                &kp HASH,              /* & */             &kp AMPS,              /* | */             &kp PIPE,            /* ^ */             &kp CARET,          /* [ */              &kp LBRC,            /* ] */              &kp RBRC,             /* ⎡ */              &kp LBKT,           /* ⎤ */              &kp RBKT, \
-        /* GUI+! */         U_MTL(LGUI, EXCL),  /* ALT+_ */          U_MTL(LALT, UNDER),    /* CTRL+: */           U_MTL(LCTRL, COLON),   /* SHFT+= */        U_MTL(LSHIFT, EQUAL),  /* $ */             &kp DLLR,            /* @ */             &kp AT,             /* (+SHFT) */        U_MTR(LSHIFT, LPAR), /* )+CTRL */         U_MTR(LCTRL, RPAR),   /* _+ALT */          U_MTR(LALT, UNDER), /* ;+GUI */          U_MTR(LGUI, SEMI), \
-        /* % */             &kp PRCNT,          /* ? */              &kp QMARK,             /* * */                &kp ASTRK,             /* + */             &kp PLUS,              /* \\ */            &kp BSLH,            /* / */             &kp SLASH,          /* - */              &kp MINUS,           /* < */              &kp LT,               /* > */              &kp GT,             /* " */              &kp DQT, \
-        /*     */           U_NP,               /*     */            U_NP,                  /* ( */                &kp LPAR,              /* ) */             &kp RPAR,              /* _ */             &kp UNDER,           /*     */           U_NA,               /*     */            U_NA,                /*     */            U_NA,                 /*     */            U_NP,               /*     */            U_NP
-
 
 #define MIRYOKU_LAYER_SYM \
         /* ` */             &kp GRAVE,          /* ~ */              &kp TILDE,             /* # */                &kp HASH,              /* & */             &kp AMPS,              /* | */             &kp PIPE,            /* ^ */             &kp CARET,          /* [ */              &kp LBRC,            /* ] */              &kp RBRC,             /* ⎡ */              &kp LBKT,           /* ⎤ */              &kp RBKT, \
