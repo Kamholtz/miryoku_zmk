@@ -37,6 +37,12 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_STU,             &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       &kp BSPC,          &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_SYM \
+&kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_STU,             \
+U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
 // we
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 15 16
 // er
@@ -90,6 +96,13 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 /*      ` ~ # & |    ^ { } [ ]      */
 /*      ! _ : = $    @ ( ) _ ;      */
 /*      % ? * + \    / - < > "      */
+
+#define MIRYOKU_LAYER_SYM_2 \
+        /* ` */             &kp GRAVE,          /* ~ */              &kp TILDE,             /* # */                &kp HASH,              /* & */             &kp AMPS,              /* | */             &kp PIPE,            /* ^ */             &kp CARET,          /* [ */              &kp LBRC,            /* ] */              &kp RBRC,             /* ⎡ */              &kp LBKT,           /* ⎤ */              &kp RBKT, \
+        /* GUI+! */         U_MTL(LGUI, EXCL),  /* ALT+_ */          U_MTL(LALT, UNDER),    /* CTRL+: */           U_MTL(LCTRL, COLON),   /* SHFT+= */        U_MTL(LSHIFT, EQUAL),  /* $ */             &kp DLLR,            /* @ */             &kp AT,             /* (+SHFT) */        U_MTR(LSHIFT, LPAR), /* )+CTRL */         U_MTR(LCTRL, RPAR),   /* _+ALT */          U_MTR(LALT, UNDER), /* ;+GUI */          U_MTR(LGUI, SEMI), \
+        /* % */             &kp PRCNT,          /* ? */              &kp QMARK,             /* * */                &kp ASTRK,             /* + */             &kp PLUS,              /* \\ */            &kp BSLH,            /* / */             &kp SLASH,          /* - */              &kp MINUS,           /* < */              &kp LT,               /* > */              &kp GT,             /* " */              &kp DQT, \
+        /*     */           U_NP,               /*     */            U_NP,                  /* ( */                &kp LPAR,              /* ) */             &kp RPAR,              /* _ */             &kp UNDER,           /*     */           U_NA,               /*     */            U_NA,                /*     */            U_NA,                 /*     */            U_NP,               /*     */            U_NP
+
 
 #define MIRYOKU_LAYER_SYM \
         /* ` */             &kp GRAVE,          /* ~ */              &kp TILDE,             /* # */                &kp HASH,              /* & */             &kp AMPS,              /* | */             &kp PIPE,            /* ^ */             &kp CARET,          /* [ */              &kp LBRC,            /* ] */              &kp RBRC,             /* ⎡ */              &kp LBKT,           /* ⎤ */              &kp RBKT, \
