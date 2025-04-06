@@ -48,6 +48,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 /* 39 */  &kp TILDE        /* 40 Z */  &kp LT       /* 41 X */  &kp PIPE     /* 42 C */  &kp MINUS    /* 43 V */  &kp GT       /* 44 B */  &kp SLASH       /* 45 */  &kp RIGHT      /* 46 N */  &kp BSLH     /* 47 M */  &kp PRCNT    /* 48   */  &kp PLUS     /* 49 . */  &kp AMPS     /* 50 / */  &kp COLON    /* 51 */  &kp RET \
 /* 52 */  XXX              /* 53   */  &kp LCTRL    /* 54   */  &kp LGUI     /* 55   */  K32          /* 56   */  K33          /* 57   */  K34             /* 58 */  &kp RET        /* 59   */  K35          /* 60   */  K36          /* 61   */  K37          /* 62   */  &sk RSHFT    /* 63   */  &kp RALT
 
+
+
 // we
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 15 16
 // er
