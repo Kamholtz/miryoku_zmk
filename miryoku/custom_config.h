@@ -43,6 +43,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
      N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39 \
 ) \
 /*  0 */  &kp GRAVE        /*  1   */  &kp LBKT     /*  2   */  &kp LPAR     /*  3   */  &kp RPAR     /*  4   */  &kp RBKT     /*  5   */  &kp DOT         /*  6 */  &kp UP         /*  7   */  &kp GRAVE    /*  8   */  &kp LG(N7)   /*  9   */  &kp LG(N8)   /* 10   */  &kp LG(N9)   /* 11   */  &kp LG(N0)   /* 12 */  &kp MINUS \
+/* test */ \
 /* 13 */  &kp EXCL         /* 14 Q */  &kp COMMA    /* 15 W */  &kp LBRC     /* 16 E */  &kp RBRC     /* 17 R */  &kp SEMI     /* 18 T */  &kp QMARK       /* 19 */  &kp DOWN       /* 20 Y */  &kp DQT      /* 21 U */  &kp AT       /* 22 I */  &kp COLON    /* 23 O */  K08          /* 24 P */  K09          /* 25 */  &kp BSLH \
 /* 26 */  &kp HASH         /* 27 A */  &kp CARET    /* 28 S */  &kp EQUAL    /* 29 D */  &kp UNDER    /* 30 F */  &kp DLLR     /* 31 G */  &kp ASTRK       /* 32 */  &kp LEFT       /* 33 H */  &kp SQT      /* 34 J */  K16          /* 35 K */  K17          /* 36 L */  K18          /* 37 ; */  K19          /* 38 */  &kp SQT \
 /* 39 */  &kp TILDE        /* 40 Z */  &kp LT       /* 41 X */  &kp PIPE     /* 42 C */  &kp MINUS    /* 43 V */  &kp GT       /* 44 B */  &kp SLASH       /* 45 */  &kp RIGHT      /* 46 N */  &kp BSLH     /* 47 M */  &kp PRCNT    /* 48   */  &kp PLUS     /* 49 . */  &kp AMPS     /* 50 / */  K29          /* 51 */  &kp RET \
