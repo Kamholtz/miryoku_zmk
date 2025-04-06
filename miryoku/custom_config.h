@@ -109,4 +109,3 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
         /*     */           U_NP,               /*     */            U_NP,                  /* ( */                &kp LPAR,              /* ) */             &kp RPAR,              /* _ */             &kp UNDER,           /*     */           U_NA,               /*     */            U_NA,                /*     */            U_NA,                 /*     */            U_NP,               /*     */            U_NP
 
 
-// test
