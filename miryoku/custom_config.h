@@ -24,13 +24,18 @@
      K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39 \
 ) \
-/*  0 */  &kp ESC          /*  1   */  &kp LG(N1)   /*  2   */  &kp LG(N2)   /*  3   */  &kp LG(N3)   /*  4   */  &kp LG(N4)   /*  5   */  &kp LG(N5)   /*  6 */  &kp UP         /*  7   */  &kp LG(N6)   /*  8   */  &kp LG(N7)   /*  9   */  &kp LG(N8)   /* 10   */  &kp LG(N9)   /* 11   */  &kp LG(N0)   /* 12 */  &kp MINUS \
-/* 13 */  &kp LG(LC(RIGHT))/* 14 Q */  K00          /* 15 W */  K01          /* 16 E */  K02          /* 17 R */  K03          /* 18 T */  K04          /* 19 */  &kp DOWN       /* 20 Y */  K05          /* 21 U */  K06          /* 22 I */  K07          /* 23 O */  K08          /* 24 P */  K09          /* 25 */  &kp BSLH \
-/* 26 */  &kp LG(LC(LEFT)) /* 27 A */  K10          /* 28 S */  K11          /* 29 D */  K12          /* 30 F */  K13          /* 31 G */  K14          /* 32 */  &kp LEFT       /* 33 H */  K15          /* 34 J */  K16          /* 35 K */  K17          /* 36 L */  K18          /* 37 ; */  K19          /* 38 */  &kp SQT \
-/* 39 */  &sk LSHFT        /* 40 Z */  K20          /* 41 X */  K21          /* 42 C */  K22          /* 43 V */  K23          /* 44 B */  K24          /* 45 */  &kp RIGHT      /* 46 N */  K25          /* 47 M */  K26          /* 48  */   K27          /* 49 . */  K28          /* 50 / */  K29          /* 51 */  &kp RET \
-/* 52 */  XXX              /* 53   */  &kp LCTRL    /* 54   */  &kp LGUI     /* 55   */  K32          /* 56   */  K33          /* 57   */  K34          /* 58 */  &kp RET        /* 59   */  K35          /* 60   */  K36          /* 61   */  K37          /* 62   */  &sk RSHFT    /* 63   */  &kp RALT
+/*   0: Esc            1: 1         2: 2         3: 3         4: 4         5: 5         6: ↑          7: 6         8: 7         9: 8        10: 9       11: 0      12: -      */ \
+    &kp ESC           &kp LG(N1)   &kp LG(N2)   &kp LG(N3)   &kp LG(N4)   &kp LG(N5)   &kp UP        &kp LG(N6)   &kp LG(N7)   &kp LG(N8)  &kp LG(N9)  &kp LG(N0)  &kp MINUS \
+/*  13: ⇢            14: Q        15: W        16: E        17: R        18: T        19: ↓         20: Y        21: U        22: I        23: O       24: P      25: \      */ \
+    &kp LG(LC(RIGHT)) K00          K01          K02          K03          K04          &kp DOWN     K05          K06          K07          K08         K09         &kp BSLH \
+/*  26: ⇠            27: A        28: S        29: D        30: F        31: G        32: ←        33: H        34: J        35: K        36: L       37: ;      38: '      */ \
+    &kp LG(LC(LEFT))  K10          K11          K12          K13          K14          &kp LEFT     K15          K16          K17          K18         K19         &kp SQT \
+/*  39: ⇧             40: Z        41: X        42: C        43: V        44: B        45: →        46: N        47: M        48:          49: .       50: /      51: ⏎     */ \
+    &sk LSHFT         K20          K21          K22          K23          K24          &kp RIGHT    K25          K26          K27          K28         K29         &kp RET \
+/*  52:               53: ⌃        54: ⌘        55:          56:          57:          58: ⏎        59:          60:          61:          62: ⇧       63: ⌥     */ \
+    XXX               &kp LCTRL    &kp LGUI     K32          K33          K34          &kp RET      K35          K36          K37          &sk RSHFT   &kp RALT
 
-#define MIRYOKU_LAYER_NAV \
+    #define MIRYOKU_LAYER_NAV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
 U_STU,             &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       &kp BSPC,          &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
