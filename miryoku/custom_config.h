@@ -125,8 +125,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 /*      % ? * + \    / - < > "      */
 
 #define MIRYOKU_LAYER_SYM \
-/*  00: `               01: ~                  02: #                  03: &                  04: |           05: ^           06: [                07: ]                 08: ⎡                09: ⎤           10: [           11: ]          */ \
-    &kp GRAVE,          &kp TILDE,             &kp HASH,              &kp AMPS,              &kp PIPE,       &kp CARET,      &kp LBRC,            &kp RBRC,             &kp LBKT,           &kp RBKT,       &kp LBKT,       &kp RBKT, \
+/*  00: `               01: ~                  02: #                  03: &                  04: |           05: ^           06: [                07: ]                 08: ⎡                09: ⎤ */ \
+    &kp GRAVE,          &kp TILDE,             &kp HASH,              &kp AMPS,              &kp PIPE,       &kp CARET,      &kp LBRC,            &kp RBRC,             &kp LBKT,           &kp RBKT, \
 /*  12: GUI+!           13: ALT+_              14: CTRL+:             15: SHFT+=             16: $           17: @           18: (+SHFT)          19: )+CTRL            20: _+ALT           21: ;+GUI      */ \
     U_MTL(LGUI, EXCL),  U_MTL(LALT, UNDER),    U_MTL(LCTRL, COLON),   U_MTL(LSHIFT, EQUAL),  &kp DLLR,       &kp AT,         U_MTR(LSHIFT, LPAR), U_MTR(LCTRL, RPAR),   U_MTR(LALT, UNDER), U_MTR(LGUI, SEMI), \
 /*  22: %               23: ?                  24: *                  25: +                  26: \\          27: /           28: -                29: <                 30: >               31: \"         */ \
