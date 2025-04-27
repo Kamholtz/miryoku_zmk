@@ -17,8 +17,8 @@
     &kp LCTRL     K10           K11           K12           K13           K14           &kp LEFT      K15           K16           K17           K18          K19            &kp SQT \
 /*  39: ⇧         40: Z         41: X         42: C         43: V         44: B         45: →         46: N         47: M         48: ,         49: .        50: /          51: ⏎       */ \
     &sk LSHFT     K20           K21           K22           K23           K24           &kp RIGHT     K25           K26           K27           K28          K29            &kp RET \
-/*                52:           53: CTRL      54: GUI       55: ESC       56: SPC       57: TAB       58: ⏎         59: BSPC      60: DEL       61:          62: ⇧          63: ⌥       */ \
-                  XXX           &kp LCTRL     &kp LGUI      K32           K33           K34           &kp RET       K35           K36           K37          &sk RSHFT      &kp RALT
+/*  52:           53: CTRL      54: GUI       55: ESC       56: SPC       57: TAB       58: ⏎         59: BSPC      60: DEL       61:           62: ⇧        63: ⌥       */ \
+    XXX           &kp LCTRL     &kp LGUI      K32           K33           K34           &kp RET       K35           K36           K37           &sk RSHFT    &kp RALT
 
 
 // REFERENCE: zmk-docs/modifiers.md
@@ -29,15 +29,15 @@
      K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39 \
 ) \
-/*   0: Esc            1: 1         2: 2         3: 3         4: 4         5: 5         6: ↑          7: 6         8: 7         9: 8        10: 9       11: 0      12: -      */ \
-    &kp ESC           &kp LG(N1)   &kp LG(N2)   &kp LG(N3)   &kp LG(N4)   &kp LG(N5)   &kp UP        &kp LG(N6)   &kp LG(N7)   &kp LG(N8)  &kp LG(N9)  &kp LG(N0)  &kp MINUS \
-/*  13: ⇢            14: Q        15: W        16: E        17: R        18: T        19: ↓         20: Y        21: U        22: I        23: O       24: P      25: \      */ \
+/*   0: Esc           01: 1        02: 2        03: 3        04: 4        05: 5        06: ↑        07: 6        08: 7        09: 8        10: 9       11: 0       12: -      */ \
+    &kp ESC           &kp LG(N1)   &kp LG(N2)   &kp LG(N3)   &kp LG(N4)   &kp LG(N5)   &kp UP       &kp LG(N6)   &kp LG(N7)   &kp LG(N8)   &kp LG(N9)  &kp LG(N0)  &kp MINUS \
+/*  13: ⇢             14: Q        15: W        16: E        17: R        18: T        19: ↓        20: Y        21: U        22: I        23: O       24: P       25: \      */ \
     &kp LG(LC(RIGHT)) K00          K01          K02          K03          K04          &kp DOWN     K05          K06          K07          K08         K09         &kp BSLH \
-/*  26: ⇠            27: A        28: S        29: D        30: F        31: G        32: ←        33: H        34: J        35: K        36: L       37: ;      38: '      */ \
+/*  26: ⇠             27: A        28: S        29: D        30: F        31: G        32: ←        33: H        34: J        35: K        36: L       37: ;       38: '      */ \
     &kp LG(LC(LEFT))  K10          K11          K12          K13          K14          &kp LEFT     K15          K16          K17          K18         K19         &kp SQT \
-/*  39: ⇧             40: Z        41: X        42: C        43: V        44: B        45: →        46: N        47: M        48:          49: .       50: /      51: ⏎     */ \
+/*  39: ⇧             40: Z        41: X        42: C        43: V        44: B        45: →        46: N        47: M        48:          49: .       50: /       51: ⏎     */ \
     &sk LSHFT         K20          K21          K22          K23          K24          &kp RIGHT    K25          K26          K27          K28         K29         &kp RET \
-/*  52:               53: ⌃        54: ⌘        55:          56:          57:          58: ⏎        59:          60:          61:          62: ⇧       63: ⌥     */ \
+/*  52:               53: ⌃        54: ⌘        55:          56:          57:          58: ⏎        59:          60:          61:          62: ⇧       63: ⌥      */ \
     XXX               &kp LCTRL    &kp LGUI     K32          K33          K34          &kp RET      K35          K36          K37          &sk RSHFT   &kp RALT
 
 #define MIRYOKU_LAYER_NAV \
