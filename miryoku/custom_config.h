@@ -51,7 +51,7 @@
      K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39  \
 ) \
-/*   0: `        1: [         2: (           3: )         4: ]        5: .             6: ↑            7: `          8: 7         9: 8        10: 9         11: 0         12: -      */ \
+/*  00: `       01: [        02: (          03: )        04: ]       05: .            06: ↑           07: `         08: 7        09: 8        10: 9         11: 0         12: -      */ \
      &kp GRAVE  &kp LBKT     &kp LPAR       &kp RPAR     &kp RBKT    &kp DOT          &kp UP          &kp GRAVE     &kp LG(N7)   &kp LG(N8)   &kp LG(N9)    &kp LG(N0)    &kp MINUS \
 /*  13: !       14: ,        15: {          16: }        17: ;       18: ?            19: ↓           20: "         21: @        22: :        23: O         24: P         25: \      */ \
      &kp EXCL   &kp COMMA    &kp LBRC       &kp RBRC     &kp SEMI    &kp QMARK        &kp DOWN        &kp DQT       &kp AT       &kp COLON    K08           K09           &kp BSLH \
