@@ -17,7 +17,7 @@
     &kp LCTRL     K10           K11           K12           K13           K14           &kp LEFT      K15           K16           K17           K18          K19            &kp SQT \
 /*  39: ⇧         40: Z         41: X         42: C         43: V         44: B         45: →         46: N         47: M         48: ,         49: .        50: /          51: ⏎       */ \
     &sk LSHFT     K20           K21           K22           K23           K24           &kp RIGHT     K25           K26           K27           K28          K29            &kp RET \
-/*                52:           53: CTRL      54: GUI       55:           56:           57:           58: ⏎         59:           60:           61:          62: ⇧          63: ⌥       */ \
+/*                52:           53: CTRL      54: GUI       55: ESC       56: SPC       57: TAB       58: ⏎         59: BSPC      60: DEL       61:          62: ⇧          63: ⌥       */ \
                   XXX           &kp LCTRL     &kp LGUI      K32           K33           K34           &kp RET       K35           K36           K37          &sk RSHFT      &kp RALT
 
 
