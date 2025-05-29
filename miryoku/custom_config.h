@@ -111,7 +111,7 @@
 #define MIRYOKU_LAYER_BASE \
 /*  00: Q              01: W            02: E               03: R               04: T               05: Y             06: U               07: I               08: O               09: P             */ \
     &kp Q,             &kp W,           &kp E,              &kp R,              &kp T,              &kp Y,            &kp U,              &kp I,              &kp O,              &kp P, \
-/*  10: GUI+A          11: ALT+S        12: CTRL+D          13: SHFT+F          14: G               15: H             16: SHFT+J          17: CTRL+K          18: ALT+L           19: GUI+;         */ \
+/*  10: GUI/A          11: ALT/S        12: CTRL/D          13: SHFT/F          14: G               15: H             16: SHFT/J          17: CTRL/K          18: ALT/L           19: GUI/;         */ \
     U_MTL(LGUI, A),    U_MTL(LALT, S),  U_MTL(LCTRL, D),    U_MTL(LSHFT, F),    &kp G,              &kp H,            U_MTR(LSHFT, J),    U_MTR(LCTRL, K),    U_MTR(LALT, L),     U_MTR(LGUI, SEMI), \
 /*  20: Z (BTN)        21: RALT+X       22: C               23: V               24: B               25: N             26: M               27: ,               28: RALT+.          29: / (BTN)      */ \
     U_LT(U_BUTTON, Z), U_MTL(RALT, X),  &kp C,              &kp V,              &kp B,              &kp N,            &kp M,              &kp COMMA,          U_MTR(RALT, DOT),   U_LT(U_BUTTON, SLASH), \
