@@ -40,11 +40,14 @@
 /*  52:               53: CTRL     54: GUI      55: ESC      56: SPC      57: TAB      58: ⏎        59: ⏎        60: BSPC     61: DEL      62: ⇧       63: ⌥       */ \
     XXX               &kp LCTRL    &kp LGUI     K32          K33          K34          &kp RET      K35          K36          K37          &sk RSHFT   &kp RALT
 
+// One handled keys
+// NAV+G = RET
+// NAV+B = BSPC
 #define MIRYOKU_LAYER_NAV \
 /*  00: BOOT      01: to TAP    02: to EXTRA    03: to BASE   04:           05: RDO       06: PST       07: CPY       08: CUT       09: UND      */ \
     U_BOOT,       &u_to_U_TAP,  &u_to_U_EXTRA,  &u_to_U_BASE, U_NA,         U_RDO,        U_PST,        U_CPY,        U_CUT,        U_UND, \
 /*  10: GUI       11: ALT       12: CTRL        13: SHFT      14:           15: ←         16: ↓         17: ↑         18: →         19: CAPS    */ \
-    &kp LGUI,     &kp LALT,     &kp LCTRL,      &kp LSHFT,    U_NA,         &kp LEFT,     &kp DOWN,     &kp UP,       &kp RIGHT,    &u_caps_word, \
+    &kp LGUI,     &kp LALT,     &kp LCTRL,      &kp LSHFT,    &kp RET,      &kp LEFT,     &kp DOWN,     &kp UP,       &kp RIGHT,    &u_caps_word, \
 /*  20: STU       21: RALT      22: to NUM      23: to NAV    24: BSPC      25: HOME      26: PG_DN     27: PG_UP     28: END       29: INS     */ \
     U_STU,        &kp RALT,     &u_to_U_NUM,    &u_to_U_NAV,  &kp BSPC,     &kp HOME,     &kp PG_DN,    &kp PG_UP,    &kp END,      &kp INS, \
 /*  30:           31:           32:             33:           34:           35: RET       36: BSPC      37: DEL       38:           39:        */ \
