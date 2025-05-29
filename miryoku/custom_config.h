@@ -70,6 +70,7 @@
 /*  52:         53: ⌃        54: ⌘          55:          56:         57:              58: ⏎           59:           60:          61:          62: ⇧         63: ⌥     */ \
     XXX         &kp LCTRL    &kp LGUI       K32          K33         K34              &kp RET         K35           K36          K37          &sk RSHFT     &kp RALT
 
+// TOP ROW
 // we
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 15 16
 // er
@@ -80,25 +81,36 @@
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_RIGHTPINKIE 22 23
 /*#define MIRYOKU_KLUDGE_TOPROWCOMBOS*/
 
+// BOTTOM ROW
+// xc
 #define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_LEFTPINKIE 41 42
+// cv
 #define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_LEFTINNERINDEX 42 43
+// m,
 #define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_RIGHTINNERINDEX 47 48
+// ,.
 #define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_RIGHTPINKIE 48 49
 
+// zx
 #define MIRYOKU_CUSTOM_COMBOS_UNDO 40 41
+// xc
 #define MIRYOKU_CUSTOM_COMBOS_CUT 41 42
+// cv
 #define MIRYOKU_CUSTOM_COMBOS_COPY 42 43
+// vb
 #define MIRYOKU_CUSTOM_COMBOS_PASTE 43 44
 
-// left paren
+// yu: left paren
 #define MIRYOKU_CUSTOM_COMBOS_LPAR 20 21
-// left square bracket
+// ui: left square bracket
 #define MIRYOKU_CUSTOM_COMBOS_LBKT 21 22
-// right square bracket
+// io: right square bracket
 #define MIRYOKU_CUSTOM_COMBOS_RBKT 22 23
-// right paren
+// op: right paren
 #define MIRYOKU_CUSTOM_COMBOS_RPAR 23 24
-// right kb, lower left corner
+
+// RIGHT hand
+// nm: colon
 #define MIRYOKU_CUSTOM_COMBOS_COLON 46 47
 #define MIRYOKU_CUSTOM_COMBOS
 
