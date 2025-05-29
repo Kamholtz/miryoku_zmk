@@ -63,11 +63,11 @@
      &kp GRAVE  &kp LBKT     &kp LPAR       &kp RPAR     &kp RBKT    &kp DOT          &kp UP          &kp GRAVE     &kp LG(N7)   &kp LG(N8)   &kp LG(N9)    &kp LG(N0)    &kp MINUS \
 /*  13: !       14: ,        15: {          16: }        17: ;       18: ?            19: ↓           20: "         21: @        22: :        23: O         24: P         25: \      */ \
      &kp EXCL   &kp COMMA    &kp LBRC       &kp RBRC     &kp SEMI    &kp QMARK        &kp DOWN        &kp DQT       &kp AT       &kp COLON    K08           K09           &kp BSLH \
-/*  26: #       27: ^        28: =          29: _        30: $       31: *            32: ←          33: '         34: K        35: L        36: ;         37: K         38: '      */ \
+/*  26: #       27: ^        28: =          29: _        30: $       31: *            32: ←           33: '         34: K        35: L        36: ;         37: K         38: '      */ \
     &kp HASH    &kp CARET    &kp EQUAL      &kp UNDER    &kp DLLR    &kp ASTRK        &kp LEFT        &kp SQT       K16          K17          K18           K19           &kp SQT \
-/*  39: ~       40: <        41: |          42: -        43: >       44: /            45: →          46: \         47: %        48: +        49: &         50: K29       51: ⏎     */ \
+/*  39: ~       40: <        41: |          42: -        43: >       44: /            45: →           46: \         47: %        48: +        49: &         50: K29       51: ⏎     */ \
     &kp TILDE   &kp LT       &kp PIPE       &kp MINUS    &kp GT      &kp SLASH        &kp RIGHT       &kp BSLH      &kp PRCNT    &kp PLUS     &kp AMPS      K29           &kp RET \
-/*  52:         53: ⌃        54: ⌘          55:          56:         57:              58: ⏎          59:           60:          61:          62: ⇧         63: ⌥     */ \
+/*  52:         53: ⌃        54: ⌘          55:          56:         57:              58: ⏎           59:           60:          61:          62: ⇧         63: ⌥     */ \
     XXX         &kp LCTRL    &kp LGUI       K32          K33         K34              &kp RET         K35           K36          K37          &sk RSHFT     &kp RALT
 
 // we
