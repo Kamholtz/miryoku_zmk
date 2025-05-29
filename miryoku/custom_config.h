@@ -90,8 +90,16 @@
 #define MIRYOKU_CUSTOM_COMBOS_COPY 42 43
 #define MIRYOKU_CUSTOM_COMBOS_PASTE 43 44
 
+// left paren
+#define MIRYOKU_CUSTOM_COMBOS_LPAR 20 21
+// left square bracket
 #define MIRYOKU_CUSTOM_COMBOS_LBKT 21 22
+// right square bracket
 #define MIRYOKU_CUSTOM_COMBOS_RBKT 22 23
+// right paren
+#define MIRYOKU_CUSTOM_COMBOS_RPAR 23 24
+// right kb, lower left corner
+#define MIRYOKU_CUSTOM_COMBOS_COLON 46 47
 #define MIRYOKU_CUSTOM_COMBOS
 
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 56 57
