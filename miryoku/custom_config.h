@@ -104,13 +104,13 @@
 #define MIRYOKU_CUSTOM_COMBOS_PASTE 43 44
 
 // yu: left paren
-#define MIRYOKU_CUSTOM_COMBOS_LPAR 20 21
+// #define MIRYOKU_CUSTOM_COMBOS_LPAR 20 21
 // ui: left square bracket
-#define MIRYOKU_CUSTOM_COMBOS_LBKT 21 22
+// #define MIRYOKU_CUSTOM_COMBOS_LBKT 21 22
 // io: right square bracket
-#define MIRYOKU_CUSTOM_COMBOS_RBKT 22 23
+// #define MIRYOKU_CUSTOM_COMBOS_RBKT 22 23
 // op: right paren
-#define MIRYOKU_CUSTOM_COMBOS_RPAR 23 24
+// #define MIRYOKU_CUSTOM_COMBOS_RPAR 23 24
 
 // RIGHT hand
 // nm: colon
