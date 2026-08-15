@@ -12,7 +12,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["nice_nano_v2"]'
+      board: '["nice_nano//zmk"]'
       shield: '["eyelash_sofle_left nice_view"]'
       modules: '["a741725193/zmk-sofle/main"]'
       kconfig: '["CONFIG_ZMK_STUDIO=y\nCONFIG_ZMK_STUDIO_LOCKING=n\nCONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
@@ -25,7 +25,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["nice_nano_v2"]'
+      board: '["nice_nano//zmk"]'
       shield: '["eyelash_sofle_right nice_view"]'
       modules: '["a741725193/zmk-sofle/main"]'
       kconfig: '["CONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
