@@ -159,7 +159,8 @@ jobs:
             modules="${{ matrix.modules }}"
           fi
 
-          run_name=`echo $run_name | tr ' ' '-'`
+          # '/' appears in hwmv2 board names (e.g. nice_nano//zmk) but is invalid in artifact names
+          run_name=`echo $run_name | tr ' /' '--'`
           echo "run_name=$run_name" >> $GITHUB_OUTPUT
 
           echo "::endgroup::"
