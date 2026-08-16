@@ -14,7 +14,7 @@ jobs:
     with:
       board: '["nice_nano//zmk"]'
       shield: '["eyelash_sofle_left nice_view"]'
-      modules: '["a741725193/zmk-sofle/main"]'
+      modules: '["Kamholtz/zmk-sofle/upstream-zmk-miryoku"]'
       kconfig: '["CONFIG_ZMK_STUDIO=y\nCONFIG_ZMK_STUDIO_LOCKING=n\nCONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
       snippet: '["studio-rpc-usb-uart"]'
       alphas: '["qwerty"]'
@@ -27,7 +27,7 @@ jobs:
     with:
       board: '["nice_nano//zmk"]'
       shield: '["eyelash_sofle_right nice_view"]'
-      modules: '["a741725193/zmk-sofle/main"]'
+      modules: '["Kamholtz/zmk-sofle/upstream-zmk-miryoku"]'
       kconfig: '["CONFIG_ZMK_MOUSE=n\nCONFIG_ZMK_POINTING=y"]'
       alphas: '["qwerty"]'
       nav: '["vi"]'
