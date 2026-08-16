@@ -14,10 +14,11 @@
 - [x] Phase 10: `config/west.yml` deliberately not modified
 - [x] Phase 11: committed and pushed `upstream-zmk-miryoku` to `Kamholtz/zmk-sofle` (commits 8158623, f923d1e)
 - [ ] Phase 12–14: point Miryoku workflow at fork branch
-- [x] Phase 15–17: first integration run failed (both halves) but the battery_history missing-file error is gone and the shield conf loaded from the Kamholtz fork. CI logs need sign-in, so the build was reproduced exactly in the local `zmkfirmware/zmk-build-arm:stable` container. First genuine error: `config/eyelash_sofle.conf` set `CONFIG_WS2812_STRIP=y`, a symbol Zephyr split into per-bus symbols (`WS2812_STRIP_SPI` etc.) that now auto-enable from the devicetree — line removed. Left build then produced zmk.uf2 locally with Studio snippet + nice_view.
-- [ ] Phase 18–22: feature preservation checks + functional validation (on-device, user)
-- [ ] Phase 23: pin a tag once validated
-- [ ] Phase 24: add MIRYOKU_UPSTREAM_ZMK.md to the fork
+- [x] Phase 15–17: first integration run failed (both halves) but the battery_history missing-file error is gone and the shield conf loaded from the Kamholtz fork. CI logs need sign-in, so the build was reproduced exactly in the local `zmkfirmware/zmk-build-arm:stable` container. First genuine error: `config/eyelash_sofle.conf` set `CONFIG_WS2812_STRIP=y`, a symbol Zephyr split into per-bus symbols (`WS2812_STRIP_SPI` etc.) that now auto-enable from the devicetree — line removed (commit 32fe5ed). Second error was workflow-only: `nice_nano//zmk` in the artifact name is invalid for upload-artifact — slashes now sanitized in `main.yml` (commit baf78bf).
+- [x] Phase 20–21: run 31943558945 SUCCESS — left and right UF2 artifacts produced with Studio snippet + nice_view against upstream ZMK main and the fork module. Also verified locally in Docker (`docker start zmkbuild`, `/repro_build.sh left|right` for future iteration).
+- [ ] Phase 22: on-device functional validation (flash + test keys/split/displays/encoders/battery/Studio) — requires the physical keyboard
+- [ ] Phase 23: pin a tag (e.g. `miryoku-upstream-zmk-v1`) once on-device testing passes
+- [x] Phase 24: MIRYOKU_UPSTREAM_ZMK.md added to the fork branch (commit ea37df4)
 
 ## Objective
 
