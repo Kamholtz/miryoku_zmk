@@ -14,7 +14,7 @@
 - [x] Phase 10: `config/west.yml` deliberately not modified
 - [x] Phase 11: committed and pushed `upstream-zmk-miryoku` to `Kamholtz/zmk-sofle` (commits 8158623, f923d1e)
 - [ ] Phase 12–14: point Miryoku workflow at fork branch
-- [ ] Phase 15–17: integration build + iterate
+- [x] Phase 15–17: first integration run failed (both halves) but the battery_history missing-file error is gone and the shield conf loaded from the Kamholtz fork. CI logs need sign-in, so the build was reproduced exactly in the local `zmkfirmware/zmk-build-arm:stable` container. First genuine error: `config/eyelash_sofle.conf` set `CONFIG_WS2812_STRIP=y`, a symbol Zephyr split into per-bus symbols (`WS2812_STRIP_SPI` etc.) that now auto-enable from the devicetree — line removed. Left build then produced zmk.uf2 locally with Studio snippet + nice_view.
 - [ ] Phase 18–22: feature preservation checks + functional validation (on-device, user)
 - [ ] Phase 23: pin a tag once validated
 - [ ] Phase 24: add MIRYOKU_UPSTREAM_ZMK.md to the fork
